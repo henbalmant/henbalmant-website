@@ -39,7 +39,9 @@ export default class About extends Component {
               <div className="columns contact-details">
                 <h2>Resume</h2>
                 <p>
-                  <a href={resumeData.resumeUrl}>📎 resume.pdf</a>
+                  <a href={resumeData.resumeUrl} download="resume.pdf">
+                    📎 resume.pdf
+                  </a>
                 </p>
               </div>
             </div>

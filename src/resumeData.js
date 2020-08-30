@@ -18,7 +18,7 @@ let resumeData = {
   ],
   aboutme:
     'Passionate by solving problems through technology and willing to take advantages of complex situations. Node.js, React.js and RESTful APIs enthusiast.',
-  resumeUrl: '',
+  resumeUrl: '/public/resume.pdf',
   languagesAndTools: [
     {
       name: 'javascript',
