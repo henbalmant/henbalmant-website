@@ -2,6 +2,11 @@ let resumeData = {
   imagebaseurl: 'https://rbhatia46.github.io/',
   name: 'Henrique Balmant',
   role: 'Full Stack Web Developer',
+  email: 'henrique.balmant@gmail.com',
+  emailLink: 'mailto:henrique.balmant@gmail.com',
+  phone: '+55 31 97123-0364',
+  whatsapp:
+    'https://api.whatsapp.com/send?phone=+5531971230364&text=&source=&data=&app_absent=web',
   linkedinId: 'henrique-balmant',
   roleDescription: 'JavaScript, Node.js & ReactJS',
   socialLinks: [

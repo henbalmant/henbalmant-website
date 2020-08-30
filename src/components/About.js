@@ -38,13 +38,29 @@ export default class About extends Component {
             <div className="row">
               <div className="columns contact-details">
                 <h2>Resume</h2>
-                <p>
-                  <a href={resumeData.resumeUrl} download="resume.pdf">
-                    📎 resume.pdf
-                  </a>
-                </p>
+                <a href={resumeData.resumeUrl} download="resume.pdf">
+                  📎 resume.pdf
+                </a>
               </div>
             </div>
+
+            <section id="about-contact">
+              <div className="row">
+                <div className="columns contact-details">
+                  <h2>Contact</h2>
+                  <p>
+                    <a href={resumeData.emailLink}>{resumeData.email}</a> <br />
+                    <a
+                      href={resumeData.whatsapp}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {resumeData.phone}
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </section>
           </div>
         </div>
       </section>
